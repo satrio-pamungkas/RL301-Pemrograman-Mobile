@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="217dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="32dp"
+            android:gravity="left"
+            android:text="Halo !"
+            android:textColor="#3700B3"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="-6dp"
+            android:textColor="#3700B3"
+            android:gravity="left"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Awali aktivitasmu dengan niat dan berdoa"
+            android:textColor="#3700B3" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84dp"
+            android:layout_marginRight="84dp"
+            android:layout_marginTop="-24dp"
+            android:layout_marginBottom="-24dp"
+            app:srcCompat="@drawable/illustration" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="backToLogin"
+            android:text="Kembali" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
